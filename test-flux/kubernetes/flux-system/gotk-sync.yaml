@@ -21,7 +21,7 @@ metadata:
 spec:
   force: true
   interval: 10s
-  path: ./test-flux/
+  path: "./test-flux/kubernetes/"
   prune: true
   sourceRef:
     kind: GitRepository
