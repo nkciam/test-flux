@@ -4,6 +4,7 @@ kind: Deployment
 # kind là loại Deployment
 metadata:
   name: nginx-deployment
+  namespace: default
 spec:
   replicas: 2
   # replica ở đây sẽ tạo ra 2 pods luôn luôn chạy, khi một số pods bị down hay chết hay bất kì lý do nào đó sẽ tự động tạo lại số lượng pods bằng 2
