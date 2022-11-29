@@ -19,6 +19,7 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
+  force: true
   interval: 5s
   path: ./test-flux/kubernetes
   prune: true
