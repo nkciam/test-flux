@@ -19,6 +19,7 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
+  force: true
   interval: 10s
   path: ./test-flux/
   prune: true
