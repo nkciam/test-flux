@@ -8,6 +8,7 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: nginx-deployment
+    namespace: default
   minReplicas: 1
   maxReplicas: 50
   metrics:
